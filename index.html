@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/0.1.css">
+    <script src="./js/0.1.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="left">
+            <div class="time">
+                <p></p>
+            </div>
+            <div class="setting ">
+                <div class="j_item">
+                    <a href="javascript:;" class="set_item" style="color:skyblue;">设置</a>
+                    <a href="javascript:;" class="down_item">倒计时</a>
+                </div>
+                <div class="itemSetting">
+                    <div class="sRtimeSetting mar">
+                        <input type="text" placeholder="学习时间" class="hardstudy hard">
+                        <br>
+                        <input type="text" name="" id="relaxed" placeholder="休息时间" class="hard">
+                        <br>
+                        <button class="enter">确定</button>
+                    </div>
+                    <div class="dateSetting mar ">
+                        <input type="text" placeholder="目标名称" class="jName hard">
+                        <br>
+                        <input type="datetime-local" name="" id="relaxed" class="jDate hard">
+                        <br>
+                        <button class="dateEnter ">确定</button>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+            <div class="sumtime">
+                学习总时长
+                <p class="sumTime"></p>
+            </div>
+        </div>
+        <div class="center">
+            <div class="meaning " id="hitokoto_text">
+
+            </div>
+            <p id="from"></p>
+            <div class="tomato">
+                <p class="countDown">
+                    你好啊我是番茄啊
+                </p>
+                <div class="Hint_panel">
+                    <p>请休息，为下次做准备</p>
+                    <button class="stop_music">好的</button>
+                </div>
+            </div>
+            <div class="btn">
+                <div class="start">开始</div>
+                <div class="end">暂停</div>
+            </div>
+        </div>
+        <div class="right">
+            <audio src="./img/GLAM - Give It 2 U.mp3"></audio>
+            <div class="target-date">
+                <ul class="list">
+                    <li class="one"></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
